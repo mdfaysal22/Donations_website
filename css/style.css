@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  transition: all ease 0.4s;
+}
+* a {
+  text-decoration: none;
+}
+* ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #FF5959;
+  padding: 10px 25px;
+  border: none;
+  margin: 0.8rem;
+  border-radius: 5px;
+}
+.btn a {
+  color: #fff;
+  font-weight: 600;
+}
+
+#bannar {
+  background-image: linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.8039215686)), url(../img/donation1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#bannar .container .bannar-content {
+  align-items: center;
+  padding: 10rem 5rem 5rem 5rem;
+  text-align: center;
+}
+#bannar .container .bannar-content h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 0 5rem;
+}
+#bannar .container .bannar-content p {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+#donate-today {
+  padding: 7rem;
+}
+#donate-today .container .donate-content {
+  text-align: center;
+}
+#donate-today .container .donate-content h1 {
+  color: #121212;
+}
+#donate-today .container .donate-content p {
+  color: #707070;
+}
+#donate-today .container .donate-content .amount-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+#donate-today .container .donate-content .amount-card .card {
+  background-color: #FAFAFA;
+  padding: 3rem;
+  border: 1px solid #FAFAFA;
+  border-radius: 5px;
+}
+#donate-today .container .donate-content .amount-card .card h2 {
+  color: #707070;
+}
+#donate-today .container .donate-content .amount-card .card:hover {
+  background-color: #FFEEEE;
+  border: 1px solid #FF5959;
+}
+#donate-today .container .donate-content .amount-card .card:hover h2 {
+  color: #FF5959;
+}
+#donate-today .container .donate-form {
+  margin-top: 3rem;
+}
+#donate-today .container .donate-form input {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid #DADADA;
+  text-align: center;
+  width: 50%;
+}
+
+#donate-plan {
+  padding: 0 7rem 7rem 7rem;
+  text-align: center;
+}
+#donate-plan .container .donate-plan-content h1 {
+  color: #121212;
+  font-size: 2rem;
+}
+#donate-plan .container .donate-plan-content p {
+  color: #707070;
+}
+#donate-plan .container .donate-plan-content .donate-plan-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+}
+#donate-plan .container .donate-plan-content .donate-plan-card-container .card {
+  text-align: left;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem;
+}
+#donate-plan .container .donate-plan-content .donate-plan-card-container .card img {
+  padding: 10px 0;
+}
+#donate-plan .container .donate-plan-content .donate-plan-card-container .card h4 {
+  padding: 0 0 10px 0;
+  color: #121212;
+}
+#donate-plan .container .donate-plan-content .donate-plan-card-container .card p {
+  color: #707070;
+  padding: 0 0 10px 0;
+}
+#donate-plan .container .donate-plan-content .donate-plan-card-container .card-1 {
+  background-color: rgba(79, 157, 166, 0.3333333333);
+}
+#donate-plan .container .donate-plan-content .donate-plan-card-container .card-2 {
+  background-color: rgba(255, 89, 89, 0.2352941176);
+}
+#donate-plan .container .donate-plan-content .donate-plan-card-container .card-3 {
+  background-color: rgba(253, 225, 146, 0.6431372549);
+}/*# sourceMappingURL=style.css.map */
